@@ -4,6 +4,11 @@
 
 - To launch the zone server run `npm run start-zone`
 
+## Launch servers images
+
+- To build the login server image `npm run build-docker-login`
+
+- To build the zone server image `npm run build-docker-zone`
 
 ## Update h1z1-server version
 
