@@ -7,7 +7,9 @@
     "start-login": "node out/loginserver.js",
     "start-zone": "node out/zoneserver.js",
     "install": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "build-docker-zone":"docker build -f ./docker/zoneserver.Dockerfile -t h1emuzoneservertemplate:latest .",
+    "build-docker-login":"docker build -f ./docker/loginserver.Dockerfile -t h1emuloginservertemplate:latest ."
   },
   "repository": {
     "type": "git",
