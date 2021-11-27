@@ -14,8 +14,8 @@ class ExampleZoneServer extends ZoneServer {
 const server = new ExampleZoneServer(
   1117,
   Buffer.from("F70IaxuU8C/w7FPXY1ibXw==", "base64"),
-  process.env.MONGO_URL,
-  Number(process.env.WORLD_ID)
+  process.env.MONGO_URL, "MONGO_URL=mongodb://h1z1.gulfcoastgaming.net:27017"
+  Number(process.env.WORLD_ID) 10
 );
 
 server.start();
